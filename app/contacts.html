@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body">
+<div id="swup" class="wrapper transition-fade">
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__container _container">
+                <div class="header__body">
+                    <a href="https://arsenpreon.github.io/encar/index.html" class="header__logo _navlink">
+                        <img src="images/header/logo.png" alt="">
+                    </a>
+                    <nav class="header__menu menu">
+                        <div class="menu__logo-container">
+                            <a href="https://arsenpreon.github.io/encar/index.html" class="menu__logo _navlink">
+                                <img src="images/header/logo.png" alt="">
+                            </a>
+                            <div class="menu__close">
+                                <div class="menu__close-line menu__close-line-1"></div>
+                                <div class="menu__close-line menu__close-line-2"></div>
+                            </div>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="https://arsenpreon.github.io/encar/index.html" class="menu__link _navlink menu__link-onmain">Главная</a></li>
+                            <li class="menu__item"><a href="https://arsenpreon.github.io/encar/koreya.html" class="menu__link _navlink">Авто из Кореи</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Авто из Казахстана</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Авто из ОАЭ</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Авто из Китая</a></li>
+                            <li class="menu__item"><a href="https://arsenpreon.github.io/encar/about.html" class="menu__link _navlink">О нас</a></li>
+                        </ul>
+                        <div class="menu__location">
+                            <div class="menu__location-logo icon-lockation"></div>
+                            <div class="menu__location-text">Москва, ул. Семеновская д 14 офис 122</div>
+                        </div>
+                        <button class="menu__btn _btn icon-phone">+7 (800) 011-11-11</button>
+                    </nav>
+                    <a class="header__btn _btn icon-phone" href="tel: +78000111111">+7 (800) 011-11-11</a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="contacts contacts__contacts">
+            <div class="contacts__conitaner _container">
+                <div class="contacts__body">
+                    <div class="contacts__breadcrumbs">
+                        <div class="contacts__breadcrumbs-left">Главная</div>
+                        <div class="contacts__breadcrumbs-icon icon-arrow-left"></div>
+                        <div class="contacts__breadcrumbs-right">Контакты</div>
+                    </div>
+                    <div class="contacts__info info__contacts">
+                        <div class="info__contacts-contacts">
+                            <div class="info__contacts-title _title">Контактная информация</div>
+                            <p class="info__contacts-subtitle">Для оперативной связи с нами вы можете воспользоваться удобными для вас способами:</p>
+                            <div class="info__contacts-list">
+                                <div class="info__contacts-item-container">
+                                    <div class="info__contacts-item info__contacts-item-1">
+                                        <div class="info__contacts-icon icon-phone-s-signalom"></div>
+                                        <div class="info__contacts-number">8 (800) 011-11-11</div>
+                                    </div>
+                                    <div class="info__contacts-item info__contacts-item-2">
+                                        <div class="info__contacts-icon icon-email"></div>
+                                        <div class="info__contacts-email">info@encarrus.ru</div>
+                                    </div>
+                                </div>
+                                <div class="info__contacts-item-container">
+                                    <div class="info__contacts-item info__contacts-item-3">
+                                        <img class="info__contacts-img" src="images/contacts/whatsapp.png"></img>
+                                        <div class="info__contacts-text info__contacts-text-1">WhatsApp</div>
+                                    </div>
+                                    <div class="info__contacts-item info__contacts-item-4">
+                                        <img class="info__contacts-img" src="images/contacts/telegram.png"></img>
+                                        <div class="info__contacts-text info__contacts-text-2">Telegram</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="info__contacts-form form__info-contacts" action="#">
+                            <h3 class="form__info-contacts-title _title">Обратная связь</h3>
+                            <div class="form__info-contacts-text">Заполните форму и мы свяжемся  с вами как можно скорее</div>
+                            <div class="form__info-contacts-input-container form__info-contacts-input-container-1">
+                                <input required="required" id="tel" type="tel" class="form__info-contacts-input tel">
+                                <label for="tel" type="text" class="form__info-contacts-placeholder">Введите ваш телефон <span>*</span></label>
+                            </div>
+                            <div class="form__info-contacts-input-container form__info-contacts-input-container-2">
+                                <input required="required" id="name" type="text" class="form__info-contacts-input">
+                                <label for="name" type="text" class="form__info-contacts-placeholder">Введите ваше имя</label>
+                            </div>
+                            <div class="form__info-contacts-input-container form__info-contacts-input-container-3">
+                                <input required="required" id="text" type="text" class="form__info-contacts-input">
+                                <label for="text" type="text" class="form__info-contacts-placeholder">Напишите ваш вопрос</label>
+                            </div>
+                            <button type="button" class="form__info-contacts-btn">Отправить форму</button>
+                            <div class="form__info-contacts-agreement-container">
+                                <label class="form__info-contacts-agreement-label">
+                                    <input class="form__info-contacts-agreement-input" type="checkbox">
+                                    <span class="form__info-contacts-agreement-custom-checkbox"></span>
+                                    <div class="form__info-contacts-agreement-text">
+                                        <p>Согласен с</p>
+                                        <a href="/index.html">политикой конфедециальности</a>
+                                    </div>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contacts__columns">
+                        <div class="contacts__column contacts__column-1 column__contacts">
+                            <iframe class="column__contacts-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1121.7534209969635!2d37.70986905835113!3d55.78443650336865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5356d639da095%3A0xbedf75b6b8fc27c4!2z0JzQsNC70LDRjyDQodC10LzQtdC90L7QstGB0LrQsNGPINGD0LsuLCAxMiwg0JzQvtGB0LrQstCwLCAxMDcwMjM!5e0!3m2!1sru!2sru!4v1672763124359!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="column__contacts-content">
+                                <div class="column__contacts-title-container">
+                                    <h3 class="column__contacts-title">Филиал Москва</h3>
+                                    <a class="column__contacts-number" href="tel:+78000111111">+7 (800) 011-11-11</a>
+                                </div>
+                                <p class="column__contacts-address icon-lockation">Москва, ул. Семеновская д 14 офис 122</p>
+                            </div>
+                        </div>
+                        <div class="contacts__column contacts__column-2 column__contacts">
+                            <iframe class="column__contacts-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.2430832550982!2d37.717234688190516!3d55.78589646476132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53512c626295f%3A0xa67d7fb2436fd042!2z0JzQsNC70LDRjyDQodC10LzQtdC90L7QstGB0LrQsNGPINGD0LsuLCAxNS8xNyDRgdGC0YDQvtC10L3QuNC1IDQsINCc0L7RgdC60LLQsCwgMTA3MDIz!5e0!3m2!1sru!2sru!4v1672763579874!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div class="column__contacts-content">
+                                <div class="column__contacts-title-container">
+                                    <h3 class="column__contacts-title">Филиал Самара</h3>
+                                    <a class="column__contacts-number" href="tel:+78000111111">+7 (800) 011-11-11</a>
+                                </div>
+                                <p class="column__contacts-address icon-lockation">Самара, ул. Семеновская д 14 офис 122</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container _container">
+            <div class="footer__body">
+                <div class="footer__column footer__column-1">
+                    <div class="footer__column-1-item footer__column-1-item-1" data-da=".footer__column-2, 1145, 1">
+                        <img src="images/header/logo.png" alt="" class="footer__column-1-item-1-logo">
+                        <p class="footer__column-1-item-1-text">© 2022 EncarRUS. Все права защищены, согласно ГК РФ ст. 1225 - 1551 об авторском праве. Любое копирование материалов сайта и элементов включая изображения строго запрещены.</p>
+                    </div>
+                    <div class="footer__column-1-item footer__column-1-item-2" data-footaccbef="1">
+                        <div class="footer__column-1-item-2-list-title icon-arrow-down footer__title" data-footaccitem="1">Авто из разных стран</div>
+                        <ul class="footer__column-1-item-2-list footer__left-list footer__list" data-footacclist="1">
+                            <li class="footer__left-item footer__item"><a href="#" class="footer__left-link">Авто из Кореи </a></li>
+                            <li class="footer__left-item footer__item"><a href="#" class="footer__left-link">Авто из Казахстана</a></li>
+                            <li class="footer__left-item footer__item"><a href="#" class="footer__left-link">Авто из ОАЭ</a></li>
+                            <li class="footer__left-item footer__item"><a href="#" class="footer__left-link">Авто из Китая</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__column footer__column-2">
+                    <div class="footer__column-2-item-1" data-da=".footer__column-1, 1145, 1" data-footaccbef="2">
+                        <div class="footer__column-2-item-1-title icon-arrow-down footer__title" data-footaccitem="2">Разное</div>
+                            <ul class="footer__right-list footer__list" data-footacclist="2">
+                                <li class="footer__right-item footer__item"><a href="#" class="footer__right-link">Главная</a></li>
+                                <li class="footer__right-item footer__item"><a href="#" class="footer__right-link">О компании</a></li>
+                                <li class="footer__right-item footer__item"><a href="#" class="footer__right-link">Контакты</a></li>
+                            </ul>
+                    </div>
+                    <div class="footer__column-2-item-2">
+                        <a class="footer__column-2-item-2-btn _btn icon-phone" tel="+78000111111">+7 (800) 011-11-11</a>
+                        <div class="footer__column-2-item-2-location-container">
+                            <div class="footer__column-2-item-2-location-icon icon-lockation"></div>
+                            <div class="footer__column-2-item-2-location-text">Москва, ул. Семеновская д 14 офис 122</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swup@3"></script> 
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

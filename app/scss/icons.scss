@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-galochka:before {
+  content: "\e904";
+}
+.icon-arrow-down:before {
+  content: "\e90c";
+}
+.icon-play:before {
+  content: "\e90b";
+}
+.icon-play-video-1:before {
+  content: "\e903";
+}
+.icon-minus-tolsty:before {
+  content: "\e900";
+}
+.icon-minus-tonky:before {
+  content: "\e901";
+}
+.icon-arrow-left:before {
+  content: "\e902";
+}
+.icon-email:before {
+  content: "\e905";
+}
+.icon-lockation:before {
+  content: "\e908";
+}
+.icon-phone:before {
+  content: "\e909";
+}
+.icon-phone-s-signalom:before {
+  content: "\e90a";
+}

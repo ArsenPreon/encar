@@ -1,0 +1,17 @@
+@import 'vars';
+
+._btn{
+    font-weight: 700;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $red;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+    @media (any-hover: hover) {
+        &:hover {
+            transform: scale(1.03, 1.03);
+        }
+    }
+}
